@@ -1,0 +1,16 @@
+.fotocara
+{   
+display: block;
+margin: auto;
+border-radius: 20px;
+width: 18%;
+}
+
+.h1Header{
+  text-align: center;
+}
+
+
+.foto_footer{
+  width: 10%;
+}
