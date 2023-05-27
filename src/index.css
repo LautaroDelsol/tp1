@@ -14,3 +14,101 @@ width: 18%;
 .foto_footer{
   width: 10%;
 }
+
+.form2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: red;
+}
+
+.h1_form {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.label_form {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.buton_form {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.buton_form:hover {
+  background-color: #0056b3;
+}
+
+.divfooter {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.foto_footer {
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.divHeader {
+  background-color: blue;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h1Header {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin: 0;
+}
+
+.fotocara {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.boton_contacto {
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.boton_contacto:hover {
+  background-color: #45a049;
+}
