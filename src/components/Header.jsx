@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom'
 import fotocara from "../assets/fotocara.jpg"
-import {Link} from "react-router-dom"
+
 
 const Header = () => {
   return (
@@ -13,7 +14,9 @@ const Header = () => {
                   <nav className="navbar">
                   <Link to="/Contact" className='boton_contacto'>Contacto</Link>
                   <br />
-                  <Link to="/Home" className='boton_contacto'>Volver a inicio</Link>
+                  <Link to="/" className='boton_contacto'>Volver a inicio</Link>
+                  <br />
+                  <Link to="/AboutCv" className='boton_contacto'>About</Link>
                   </nav>
 
               </div>

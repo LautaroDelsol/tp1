@@ -1,3 +1,4 @@
+
 import ig from "../assets/iglogo.jpg"
 
 const Footer = () => {

@@ -112,3 +112,17 @@ input[type="email"] {
 .boton_contacto:hover {
   background-color: #45a049;
 }
+.caramia{
+  width: 350px;
+}
+
+.div_about_caja{
+  display: flex;
+ margin-left: 20px;
+  padding: 20px;
+  justify-content: space-around;
+}
+.fotos{
+  width: 23%;
+    margin-left: 20px;
+}
